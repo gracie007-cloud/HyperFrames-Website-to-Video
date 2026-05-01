@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build:scenes": "node scripts/build-scenes.mjs",
+    "preview:video": "npm run build:scenes && npx hyperframes preview",
+    "render:video": "npm run build:scenes && npx hyperframes render --output website-video.mp4"
+  }
+}
