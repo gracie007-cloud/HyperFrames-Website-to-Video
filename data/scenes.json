@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "id": "website-video",
+    "title": "Website to Video",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 25
+  },
+  "theme": {
+    "fontFamily": "Inter, Arial, sans-serif",
+    "background": "#08090A",
+    "foreground": "#FFFFFF",
+    "muted": "#A1A1AA",
+    "accent": "#6D5DF6"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "type": "hero",
+      "start": 0,
+      "duration": 3,
+      "eyebrow": "New workflow",
+      "headline": "Turn any website into a video.",
+      "subheadline": "Capture. Script. Animate. Render.",
+      "caption": "Website → Video in minutes",
+      "animation": "fade-up"
+    },
+    {
+      "id": "problem",
+      "type": "split",
+      "start": 3,
+      "duration": 4,
+      "headline": "Stop rebuilding the same promo from scratch.",
+      "body": "Your site already contains the brand, offer, and story.",
+      "caption": "Your website is the source of truth.",
+      "animation": "slide-left"
+    },
+    {
+      "id": "features",
+      "type": "cards",
+      "start": 7,
+      "duration": 6,
+      "headline": "The pipeline does the heavy lifting.",
+      "items": [
+        "Captures key pages",
+        "Extracts brand identity",
+        "Writes script + storyboard",
+        "Builds renderable scenes"
+      ],
+      "caption": "Structured, repeatable, local.",
+      "animation": "stagger"
+    },
+    {
+      "id": "proof",
+      "type": "quote",
+      "start": 13,
+      "duration": 5,
+      "headline": "Built from real website context.",
+      "body": "Not random stock-video soup. The visuals follow the actual brand.",
+      "caption": "Less magic. More control.",
+      "animation": "zoom"
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "start": 18,
+      "duration": 7,
+      "headline": "Create your launch video.",
+      "body": "Run the pipeline, preview locally, render to MP4.",
+      "button": "Start now",
+      "caption": "HyperFrames Website-to-Video",
+      "animation": "pop"
+    }
+  ]
+}
