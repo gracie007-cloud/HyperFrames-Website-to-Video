@@ -1,0 +1,8 @@
+C:\Projects\website-video-test
+├── data
+│   └── scenes.json
+├── compositions
+│   └── website-video.html
+├── scripts
+│   └── build-scenes.mjs
+└── package.json
