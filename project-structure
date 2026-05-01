@@ -1,0 +1,18 @@
+website-video-test/
+├── scenes/
+│   ├── Scene01_Hook.tsx
+│   ├── Scene02_Features.tsx
+│   ├── Scene03_CTA.tsx
+│
+├── compositions/
+│   └── MainComposition.tsx
+│
+├── styles/
+│   └── theme.ts
+│
+├── utils/
+│   └── timing.ts
+│
+├── DESIGN.md
+├── SCRIPT.md
+├── STORYBOARD.md
